@@ -1,5 +1,5 @@
 import requests
-from exceptions import ProteinNotFoundError
+from proteo.exceptions import ProteinNotFoundError
 
 
 class UniprotClient(object):

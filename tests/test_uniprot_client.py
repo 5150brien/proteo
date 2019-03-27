@@ -1,6 +1,6 @@
 import unittest
-from uniprot import UniprotClient
-from exceptions import ProteinNotFoundError
+from proteo.uniprot import UniprotClient
+from proteo.exceptions import ProteinNotFoundError
 
 
 class TestUniprotClient(unittest.TestCase):
@@ -29,7 +29,3 @@ class TestUniprotClient(unittest.TestCase):
         for key, val in protein_data.items():
             self.assertIs(type(val), str)
             self.assertTrue(val)
-
-
-if __name__ == '__main__':
-    unittest.main()
