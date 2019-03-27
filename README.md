@@ -2,6 +2,12 @@
 
 A simple Python library for working with UniProt, the *Universal Protein resource*.
 
+## Installation
+
+```
+pip install proteo
+```
+
 ## Usage
 
 ```python
